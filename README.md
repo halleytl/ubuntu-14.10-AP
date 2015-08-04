@@ -53,9 +53,5 @@ sysctl -w net.ipv4.ip_forward=1
 iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
 ```
 
-##配置/etc/hosts文件
-```shell
-192.168.0.1 dashboard.helix.hichao.com
-192.168.0.1 helix.hichao.com
-```
+
 
